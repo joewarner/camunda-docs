@@ -1096,6 +1096,7 @@ module.exports = {
           Troubleshooting: [
             "self-managed/operational-guides/troubleshooting/troubleshooting",
             "self-managed/operational-guides/troubleshooting/log-levels",
+            "self-managed/operational-guides/troubleshooting/remote-debugging",
           ],
         },
       ],
