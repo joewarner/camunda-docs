@@ -1,8 +1,9 @@
-A specific point in time defined as ISO 8601 combined date and time representation. It must contain timezone information, either `Z` for UTC or a zone offset. Optionally, it can contain a zone id.
+A specific point in time defined as ISO 8601 combined date and time representation. It must contain timezone information, either `Z` for UTC or a zone offset. 
+Optionally, it can contain an IANA zone id.
 
 - `2019-10-01T12:00:00Z` - UTC time
 - `2019-10-02T08:09:40+02:00` - UTC plus two hours zone offset
-- `2019-10-02T08:09:40[Europe/Berlin]` - UTC plus one hour zone offset at Berlin
+- `2019-10-02T08:09:40[Europe/Berlin]` - zone id for Berlin (plus one hour offset from UTC)
 
 :::note
 Camunda deviates slightly from ISO 8601 in that ALL Camunda times must have a timezone. 
